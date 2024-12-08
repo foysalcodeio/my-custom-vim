@@ -1,19 +1,18 @@
-
 #Install Nvim Install a C++ Compiler
 ```
 sudo apt install neovim
 ```
-# Install a C++ Compiler
+#Install a C++ Compiler
 ```
 sudo apt install build-essential
 ```
-# install light-weight vim plugin manager
+#Install light-weight vim plugin manager
 ```
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
-# Create the Neovim configuration file
+#Create the Neovim configuration file
 ```
 mkdir -p ~/.config/nvim
 touch ~/.config/nvim/init.vim
